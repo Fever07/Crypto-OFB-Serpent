@@ -4,9 +4,9 @@ const path = require('path');
 const fs = require('fs');
 const bodyParser = require('body-parser');
 
-const serpent = require('./server/serpent')
-const ofb = require('./server/ofb');
-const utils = require('./server/utils');
+const serpent = require('./serpent');
+const ofb = require('./ofb');
+const utils = require('./utils');
 
 let e, n;
 app.use(express.static('./'));
